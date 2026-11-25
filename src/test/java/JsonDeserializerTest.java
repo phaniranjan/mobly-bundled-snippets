@@ -22,12 +22,7 @@ import com.google.common.truth.Truth;
 import java.util.UUID;
 import org.json.JSONObject;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.robolectric.annotation.Config;
-import org.robolectric.RobolectricTestRunner;
 
-@RunWith(RobolectricTestRunner.class)
-@Config(minSdk = 33)
 public class JsonDeserializerTest {
   @Test
   public void testCharacteristicWithPropertiesPermissions() throws Throwable {

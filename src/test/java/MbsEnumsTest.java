@@ -1,16 +1,8 @@
 import android.bluetooth.BluetoothGattCharacteristic;
-import android.os.Build.VERSION_CODES;
 import com.google.android.mobly.snippet.bundled.utils.MbsEnums;
 import com.google.common.truth.Truth;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import androidx.test.runner.AndroidJUnitRunner;
-import org.junit.runners.JUnit4;
-import org.robolectric.annotation.Config;
-import org.robolectric.RobolectricTestRunner;
 
-@RunWith(RobolectricTestRunner.class)
-@Config(minSdk = 33)
 public class MbsEnumsTest {
   @Test
   public void testGetIntBitwiseOrValid() throws Throwable {

@@ -1,9 +1,12 @@
 *.iml
-.gradle
+.gradle/
 /local.properties
 /.idea/
 .DS_Store
-/build
+Thumbs.db
+/build/
+build/
+out/
 /captures
 .externalNativeBuild
 .cxx
